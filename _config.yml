@@ -1,0 +1,9 @@
+# Site settings
+title: VizWit
+email: tim@timwis.com
+description: An interactive data visualization tool
+baseurl: ""
+url: "http://vizwit.io"
+
+# Build settings
+markdown: kramdown

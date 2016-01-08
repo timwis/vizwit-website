@@ -62,7 +62,7 @@ on them. On an interaction, the view triggers the global event object with the f
 dataset receive the event and use their `filteredCollection` to query the data provider with the filter passed through the event. By
 using a separate collection, VizWit can show the "filtered value" and the "original value" side-by-side.
 
-The actual entry point is either [layout.js](src/scripts/layout.js) or [embed.js](src/scripts/embed.js). layout.js fetches a gist, reads
+The actual entry point is either [layout.js](https://github.com/timwis/vizwit/blob/master/src/scripts/layout.js) or [embed.js](https://github.com/timwis/vizwit/blob/master/src/scripts/embed.js). layout.js fetches a gist, reads
 its configuration, and creates a layout on the page. Then for each chart in the configuration, it calls `init()` from vizwit.js as 
 described above. embed.js simply finds the parent container of the `<script>` tag that was embedded, and calls `init()` from vizwit.js
 inside of it. This way of embedding allows the VizWit library to only be loaded once on the page with as many charts embedded in any
@@ -75,4 +75,4 @@ element ([example](http://vizw.it/embed-demo.html)).
 * Use `npm run build` for a production build, and then use `npm run deploy` to push the `dist/` directory to the `gh-pages` branch
 
 # License
-[GPL-2](LICENSE.md) (create an issue if that doesn't work for someone)
+[GPL-2](https://github.com/timwis/vizwit/blob/master/LICENSE.md) (create an issue if that doesn't work for someone)

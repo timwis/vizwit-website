@@ -5,7 +5,7 @@ layout: default
 An interactive data visualization tool. VizWit uses a [JSON config file](https://gist.github.com/601224472a5d53cbb908) to generate 
 interactive charts that cross-filter one another. It currently supports data hosted in a Socrata Open Data portal, which includes 
 cities such as [Philadelphia](http://opendataphilly.org), [Chicago](https://data.cityofchicago.org/), [San Francisco](https://data.sfgov.org/)
-and many others. However, interactions with Socrata have been [abstracted](src/scripts/collections/socrata.js) to allow
+and many others. However, interactions with Socrata have been [abstracted](https://github.com/timwis/vizwit/blob/master/src/scripts/collections/socrata.js) to allow
 for other data providers to be written (in theory).
 
 [![screencast](http://i.imgur.com/4gTXNFK.gif)](http://vizw.it/?gist=51db593dc0537d1a3f05)
